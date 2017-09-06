@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Josephus.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="loop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="magician.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Latin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dulink.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RPN.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="print.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BitTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BiThrTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Chess1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prim1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prim2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal_Matrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Kruskal_List.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra_Matrix.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra_List.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Floyd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Topological.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalPath.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Binary-search.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Insert_search.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibonacci_search.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexSearch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySortTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLTree.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Fetch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexSearch1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CriticalPath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AVLTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

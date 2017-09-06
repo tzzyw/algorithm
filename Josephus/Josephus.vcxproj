@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{92D0425D-BEB9-4632-999A-C1E56652AFDE}</ProjectGuid>
+    <RootNamespace>Josephus</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AVLTree.c" />
+    <ClCompile Include="Binary-search.c" />
+    <ClCompile Include="BinarySortTree.c" />
+    <ClCompile Include="BiThrTree.c" />
+    <ClCompile Include="BitTree.c" />
+    <ClCompile Include="Bubble.c" />
+    <ClCompile Include="Chess.c" />
+    <ClCompile Include="Chess1.c" />
+    <ClCompile Include="CriticalPath.c" />
+    <ClCompile Include="Dijkstra_List.c" />
+    <ClCompile Include="Dijkstra_Matrix.c" />
+    <ClCompile Include="Dulink.c" />
+    <ClCompile Include="Fetch.c" />
+    <ClCompile Include="Fibonacci_search.c" />
+    <ClCompile Include="Floyd.c" />
+    <ClCompile Include="Graph.c" />
+    <ClCompile Include="Graph1.c" />
+    <ClCompile Include="Graph2.c" />
+    <ClCompile Include="HeapSort.c" />
+    <ClCompile Include="IndexSearch.c" />
+    <ClCompile Include="IndexSearch1.c" />
+    <ClCompile Include="InsertSort.c" />
+    <ClCompile Include="Insert_search.c" />
+    <ClCompile Include="Josephus.c" />
+    <ClCompile Include="KMP.c" />
+    <ClCompile Include="Kruskal_List.c" />
+    <ClCompile Include="Kruskal_Matrix.c" />
+    <ClCompile Include="Latin.c" />
+    <ClCompile Include="loop.c" />
+    <ClCompile Include="magician.c" />
+    <ClCompile Include="MergeSort1.c" />
+    <ClCompile Include="MergeSort2.c" />
+    <ClCompile Include="Prim.c" />
+    <ClCompile Include="Prim1.c" />
+    <ClCompile Include="Prim2.c" />
+    <ClCompile Include="print.c" />
+    <ClCompile Include="QuickSort1.c" />
+    <ClCompile Include="QuickSort2.c" />
+    <ClCompile Include="QuickSort3.c" />
+    <ClCompile Include="RPN.c" />
+    <ClCompile Include="SelectSort.c" />
+    <ClCompile Include="ShellSort.c" />
+    <ClCompile Include="Topological.c" />
+    <ClCompile Include="Tree.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AVLTree.h" />
+    <ClInclude Include="CriticalPath.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
